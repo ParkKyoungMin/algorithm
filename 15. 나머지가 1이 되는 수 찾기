@@ -1,0 +1,10 @@
+class Solution {
+    public int solution(int n) {
+        while (n % answer != 1){
+            answer ++;
+        }        
+        return answer;
+    }
+}
+
+//while (n % answer != 1){ answer ++;} 를 사용하면 if, break
